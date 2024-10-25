@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;s
+    box-sizing: border-box;
 }
 
 body {
-    background-colors: #1f242d;
+    background: #1f242d;
 }
 
 a {
@@ -19,7 +19,6 @@ a {
     top: 0;
     width: 100%;
     padding: 25px 9%;
-    background-color: slateblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +28,10 @@ a {
 .navbar .logo {
     font-size: 30px;
     font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
 }
 
 .navbar ul li{
