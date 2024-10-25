@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,22 +19,42 @@
         </ul>
     </nav>
 
+    <div class="bars-animation">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
     <section class="home">
         <div class="home-info">
             <h1>Gustavo Bazan</h1>
-            <h2>Desenvolvedor</h2>
+            <h2>Desenvolvedor
+                <span style="--i:2;" data-text="FrontEnd">FrontEnd</span>
+                <span style="--i:1;" data-text="BackEnd">BackEnd</span>
+            </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus minima reiciendis consectetur repellat odit tenetur, dicta corrupti temporibus. Excepturi ducimus quo sit ut repudiandae iusto voluptates quisquam, porro dolorum.</p>
-            // sci = social midia
+            <!-- sci = social midia -->
             <div class="btn-sci">
-                <a href="#" class="button">Baixar CV</a>
+                <a href="curriculo.pdf" download="curriculo.pdf" class="btn">Baixar CV</a>
                 <div class="sci">
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
+                    <a href="https://github.com/bazeluv"><i class='bx bxl-github'></i></a>
+                    <a href="https://open.spotify.com/user/zxeightxz?si=f4e5b291529a4384"><i class='bx bxl-spotify' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
                 </div>
             </div>
         </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="sonic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
     </section>
     
 </body>
